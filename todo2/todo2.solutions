@@ -1,0 +1,10 @@
+touch katebrender.txt
+echo 'My name is Kate Brender' >> katebrender.txt
+echo 'I like pizza' >> katebrender.txt
+echo 'I live in NYC' >> katebrender.txt
+cat katebrender.txt
+cat katebrender.txt >> katebrendercopy.txt
+mv katebrendercopy.txt stevenrules.txt
+cat katebrender.txt stevenrules.txt >> everything.txt
+echo 'I like pina coladas and getting caught in the rain' >> everything.txt
+echo *.txt >> textfileslist
